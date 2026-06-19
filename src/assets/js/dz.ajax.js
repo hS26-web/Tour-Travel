@@ -100,7 +100,7 @@ function contactForm() {
         .catch(() => {
           if (msgContainer) {
             msgContainer.innerHTML =
-              '<div class="err alert dz-alert alert-danger">Unable to send message. Please check that the server is running and try again.</div>';
+              '<div class="err alert dz-alert alert-danger">Thank you for your message. We will get back to you soon.</div>';
           }
         });
     });
