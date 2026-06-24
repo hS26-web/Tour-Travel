@@ -89,9 +89,9 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --font-display: "Kaushan Script", "cursive";
-    --font-title: "Afacad", "sans-serif";
-    --font-base: "Figtree", "sans-serif";
+    --font-display: "Playfair Display", serif;
+    --font-title: "Poppins", sans-serif;
+    --font-base: "Inter", sans-serif;
     --color-bodycolor: var(--body-color);
     --color-body-bg: var(--body-bgcolor);
     --color-heading: var(--heading-color);
