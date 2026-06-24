@@ -55,29 +55,4 @@
     background: #33B5E5;
     animation: dotsX 2.4s linear infinite;
 }
-.cursor {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    margin-left: -20px;
-    margin-top: -20px;
-    border-radius: 50%;
-    border: 2px solid #443935;
-    transition: 0.3s;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 1000;
-}
-.cursor2 {
-    position: fixed;
-    width: 4px;
-    height: 4px;
-    margin-left: -20px;
-    margin-top: -20px;
-    border-radius: 50%;
-    background-color: #066168;
-    transform: translate(-50%, -50%);
-    transition: 0.1s;
-    pointer-events: none;
-    z-index: 1000;
 }
