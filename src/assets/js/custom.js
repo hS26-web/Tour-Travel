@@ -338,7 +338,14 @@ const Travlla = (function () {
   };
 
   function handleLightboxPopup() {
-    lc_lightbox(".elem", {
+    if (
+      !document.querySelector(".elem") ||
+      typeof window.lc_lightbox !== "function"
+    ) {
+      return;
+    }
+
+    window.lc_lightbox(".elem", {
       wrap_class: "lcl_fade_oc",
       gallery: true,
       thumb_attr: "data-lcl-thumb",

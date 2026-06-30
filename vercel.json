@@ -1,3 +1,10 @@
 {
-  "outputDirectory": "src"
+  "buildCommand": "node scripts/prepare-vercel-output.cjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/manali-batch.html", "destination": "/packages/manali-itinerary.html" },
+    { "source": "/destination-detail.html", "destination": "/destination.html" },
+    { "source": "/service-detail.html", "destination": "/contact.html" },
+    { "source": "/assets/img/patterns/:path*", "destination": "/assets/images/background/patern.png" }
+  ]
 }
